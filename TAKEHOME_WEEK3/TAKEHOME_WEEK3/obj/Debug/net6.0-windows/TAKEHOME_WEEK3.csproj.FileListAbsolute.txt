@@ -1,0 +1,17 @@
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\bin\Debug\net6.0-windows\TAKEHOME_WEEK3.exe
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\bin\Debug\net6.0-windows\TAKEHOME_WEEK3.deps.json
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\bin\Debug\net6.0-windows\TAKEHOME_WEEK3.runtimeconfig.json
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\bin\Debug\net6.0-windows\TAKEHOME_WEEK3.dll
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\bin\Debug\net6.0-windows\TAKEHOME_WEEK3.pdb
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.csproj.AssemblyReference.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.Form1.resources
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.csproj.GenerateResource.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.AssemblyInfoInputs.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.AssemblyInfo.cs
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.csproj.CoreCompileInputs.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.dll
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\refint\TAKEHOME_WEEK3.dll
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.pdb
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\TAKEHOME_WEEK3.genruntimeconfig.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK3\TAKEHOME_WEEK3\obj\Debug\net6.0-windows\ref\TAKEHOME_WEEK3.dll
