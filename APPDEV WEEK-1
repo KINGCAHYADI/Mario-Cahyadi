@@ -1,0 +1,372 @@
+﻿using System;
+using System.Formats.Asn1;
+using static car;
+
+public class car
+{
+    private string make;
+    private string model;
+    private int year;
+    private double price;
+    private string type;
+    private string customername;
+
+    public string produsen
+    {
+        get { return make; }
+        set { make = value; }
+    }
+    public string modelmobil
+    {
+        get { return model; }
+        set { model = value; }
+    }
+    public int tahunmobil
+    {
+        get { return year; }
+        set { year = value; }
+    }
+
+    public double hargamobil
+    {
+        get { return price; }
+        set
+        {
+            price = value;
+        }
+    }
+    public string tipemobil
+    {
+        get { return type; }
+        set
+        {
+            type = value;
+        }
+    }
+
+    public string customerpembeli
+    {
+        get { return customername; }
+        set { customername = value; }
+    }
+
+    public class gasoline : car
+    {
+        private int gastanksize;
+        public int kapasitasben
+        {
+            get { return gastanksize; }
+            set { gastanksize = value; }
+        }
+    }
+    public class electric : car
+    {
+        private int baterycapacity;
+        public int kapasitasbat
+        {
+            get { return baterycapacity; }
+            set { baterycapacity = value; }
+        }
+    }
+    public class hybrid : car
+    {
+        private int gastanksize;
+        public int kapasitasben
+        {
+            get { return gastanksize; }
+            set { gastanksize = value; }
+        }
+        private int baterycapacity;
+        public int kapasitasbat
+        {
+            get { return baterycapacity; }
+            set { baterycapacity = value; }
+        }
+    }
+    public class mixsale : car
+    {
+        private string customername;
+        private double pricepaid;
+
+        public string customerpembeli
+        {
+            get { return customername; }
+            set { customername = value; }
+        }
+
+        public double hargajual
+        {
+            get { return pricepaid; }
+            set { pricepaid = value; }
+        }
+
+    }
+    public class dealermobil
+    {
+        private string namadealer;
+        private string lokasidealer;
+        public string namadealerr
+        {
+            get { return namadealer; }
+            set { namadealer = value; }
+        }
+        public string lokasidealerr
+        {
+            get { return lokasidealer; }
+            set { lokasidealer = value; }
+        }
+
+        List<car> listcar = new List<car>();
+        List<car> listjual = new List<car>();
+
+        public void Addgasolinecar()
+        {
+            gasoline gas = new gasoline();
+            Console.Write("NAMA PRODUSEN: ");
+            gas.produsen = Console.ReadLine();
+            Console.Write("NAMA MODEL : ");
+            gas.modelmobil = Console.ReadLine();
+            Console.Write("TAHUN MOBIL: ");
+            gas.tahunmobil = Convert.ToInt32(Console.ReadLine());
+            Console.Write("HARGA MOBIL: ");
+            gas.hargamobil = Convert.ToDouble(Console.ReadLine());
+            Console.Write("KAPASITAS GAS: ");
+            gas.kapasitasben = Convert.ToInt32(Console.ReadLine());
+            gas.tipemobil = "gasoline";
+            listcar.Add(gas);
+        }
+        public void Addelectriccar()
+        {
+            electric batrai = new electric();
+            Console.Write("NAMA PRODUSEN: ");
+            batrai.produsen = Console.ReadLine();
+            Console.Write("NAMA MODEL: ");
+            batrai.modelmobil = Console.ReadLine();
+            Console.Write("TAHUN MOBIL: ");
+            batrai.tahunmobil = Convert.ToInt32(Console.ReadLine());
+            Console.Write("HARGA MOBIL: ");
+            batrai.hargamobil = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("KAPASITAS BATRAI");
+            batrai.kapasitasbat = Convert.ToInt32(Console.ReadLine());
+            batrai.tipemobil = "electric";
+            listcar.Add(batrai);
+        }
+        public void Addhybridcar()
+        {
+            hybrid hybridcar = new hybrid();
+            Console.Write("NAMA PRODUSEN: ");
+            hybridcar.produsen = Console.ReadLine();
+            Console.Write("NAMA MODEL: ");
+            hybridcar.modelmobil = Console.ReadLine();
+            Console.Write("TAHUN MOBIL: ");
+            hybridcar.tahunmobil = Convert.ToInt32(Console.ReadLine());
+            Console.Write("HARGA MOBIL: ");
+            hybridcar.hargamobil = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("KAPASITAS BATRAI");
+            hybridcar.kapasitasbat = Convert.ToInt32(Console.ReadLine());
+            Console.Write("KAPASITAS GAS: ");
+            hybridcar.kapasitasben = Convert.ToInt32(Console.ReadLine());
+            hybridcar.tipemobil = "hybrid";
+            listcar.Add(hybridcar);
+        }
+        public void RemoveCar(string produsenmobill, string modelmobill)
+        {
+            foreach (var mobil in listcar.ToList())
+            {
+                if (mobil.produsen == produsenmobill && mobil.modelmobil == modelmobill)
+                {
+                    listcar.Remove(mobil);
+                }
+                else
+                {
+                    Console.Write("PRODUSEN MOBIL: ");
+                    Console.WriteLine(mobil.produsen);
+                    Console.Write("MODEL MOBIL: ");
+                    Console.WriteLine(mobil.modelmobil);
+                    Console.Write("HARGA MOBIL: ");
+                    Console.WriteLine(mobil.hargamobil);
+                    Console.Write("TAHUN MOBIL: ");
+                    Console.WriteLine(mobil.tahunmobil);
+                    Console.Write("TIPE MOBIL: ");
+                    Console.WriteLine(mobil.tipemobil);
+                }
+
+            }
+
+        }
+        public void allcar()
+        {
+            foreach (var n in listcar)
+            {
+                Console.Write("PRODUSEN MOBIL: ");
+                Console.WriteLine(n.produsen);
+                Console.Write("MODEL MOBIL: ");
+                Console.WriteLine(n.modelmobil);
+                Console.Write("HARGA MOBIL: ");
+                Console.WriteLine(n.hargamobil);
+                Console.Write("TAHUN MOBIL: ");
+                Console.WriteLine(n.tahunmobil);
+                Console.Write("TIPE MOBIL: ");
+                Console.WriteLine(n.tipemobil);
+                Console.WriteLine();
+            }
+        }
+        public void penjualan()
+        {
+            mixsale jual = new mixsale();
+
+            Console.WriteLine("MASUKAN NAMA CUSTOMER");
+            jual.customerpembeli = Console.ReadLine();
+            Console.WriteLine("MASUKAN PRODUSEN MOBIL");
+            jual.produsen = Console.ReadLine();
+            Console.WriteLine("MASUKAN MODEL MOBIL");
+            jual.modelmobil = Console.ReadLine();
+            Console.WriteLine("MASUKAN HARGA JUAL");
+            jual.hargajual = Convert.ToDouble(Console.ReadLine());
+
+            foreach (var n in listcar.ToList())
+            {
+                if (n.produsen == jual.produsen && n.modelmobil == jual.modelmobil)
+                {
+                    n.customerpembeli = jual.customerpembeli;
+                    listjual.Add(n);
+                    listcar.Remove(n);
+                }
+            }
+        }
+        public void hasilpenjualan()
+        {
+            foreach (var mobil in listjual)
+            {
+                Console.Write("NAMA CUSTOMER: ");
+                Console.WriteLine(mobil.customerpembeli);
+                Console.Write("PRODUSEN MOBIL: ");
+                Console.WriteLine(mobil.produsen);
+                Console.Write("MODEL MOBIL: ");
+                Console.WriteLine(mobil.modelmobil);
+                Console.Write("HARGA MOBIL: ");
+                Console.WriteLine(mobil.hargamobil);
+                Console.Write("TAHUN MOBIL: ");
+                Console.WriteLine(mobil.tahunmobil);
+                Console.Write("TIPE MOBIL: ");
+                Console.WriteLine(mobil.tipemobil);
+                Console.WriteLine();
+
+            }
+        }
+
+    }
+}
+
+    public class program
+    {
+        public static void Main()
+        {
+            int exit = 0;
+            int stop = 0;
+            int stopp = 0;
+            int stoppp = 0;
+            int stopppp = 0;
+            int stoppppp = 0;
+
+            int pilihmenu;
+            int pilihtipemobil;
+            dealermobil dealer = new dealermobil();
+            Console.Write("NAMA DEALER : ");
+            dealer.namadealerr = Console.ReadLine();
+            Console.WriteLine();
+            Console.Write("LOKASI DEALER : ");
+            dealer.lokasidealerr = Console.ReadLine();
+
+            while (exit != 1)
+            {
+                stop = 0;
+                stopp = 0;
+                stoppp = 0;
+                stopppp = 0;
+                stoppppp = 0;
+                Console.WriteLine("1. Add Car");
+                Console.WriteLine("2. Remove Car");
+                Console.WriteLine("3. Show Car List");
+                Console.WriteLine("4. Make Sales");
+                Console.WriteLine("5. Print Sales");
+                Console.WriteLine("6. Exit");
+                Console.WriteLine("pilih menu: ");
+                pilihmenu = Convert.ToInt32(Console.ReadLine());
+                if (pilihmenu == 1)
+                {
+                    while (stop != 1)
+                    {
+                        Console.WriteLine("1. Gasoline Car");
+                        Console.WriteLine("2. Electric Car");
+                        Console.WriteLine("3. Hybrid Car");
+                        Console.WriteLine("pilih nomor : ");
+                        pilihtipemobil = Convert.ToInt32(Console.ReadLine());
+                        if (pilihtipemobil == 1)
+                        {
+                            dealer.Addgasolinecar();
+                            stop = 1;
+
+                        }
+                        if (pilihtipemobil == 2)
+                        {
+                            dealer.Addelectriccar();
+                            stop = 1;
+                        }
+                        if (pilihtipemobil == 3)
+                        {
+                            dealer.Addhybridcar();
+                            stop = 1;
+                        }
+
+                    }
+                }
+                if (pilihmenu == 2)
+                {
+                    while (stopp != 1)
+                    {
+                        Console.WriteLine("PRODUSEN MOBIL: ");
+                        string produsenmobill = Console.ReadLine();
+                        Console.WriteLine("Masukkan Model:");
+                        string modelmobill = Console.ReadLine();
+                        dealer.RemoveCar(produsenmobill, modelmobill);
+                        stopp = 1;
+                    }
+                }
+                if (pilihmenu == 3)
+                {
+                    while (stoppp != 1)
+                    {
+                        dealer.allcar();
+                        stoppp = 1;
+                    }
+                }
+                if (pilihmenu == 4)
+                {
+                while (stopppp != 1)
+                {
+                    dealer.penjualan();
+                    stopppp = 1;
+                }
+                }
+                if (pilihmenu == 5)
+                {
+                while (stoppppp != 1)
+                {
+                    dealer.hasilpenjualan();
+                    stoppppp = 1;
+                }
+                }
+                if (pilihmenu == 6)
+                {
+                    exit = 1;
+                }
+            }
+
+        }
+    }
+
+
+
+
+
