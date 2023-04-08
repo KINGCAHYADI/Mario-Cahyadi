@@ -1,0 +1,12 @@
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\bin\Debug\HOMEWORK_WEEK4.exe.config
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\bin\Debug\HOMEWORK_WEEK4.exe
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\bin\Debug\HOMEWORK_WEEK4.pdb
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.csproj.AssemblyReference.cache
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.csproj.SuggestedBindingRedirects.cache
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.Form1.resources
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.Form2.resources
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.Properties.Resources.resources
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.csproj.GenerateResource.cache
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.csproj.CoreCompileInputs.cache
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.exe
+C:\Users\kingg\source\repos\HOMEWORK_WEEK4\HOMEWORK_WEEK4\obj\Debug\HOMEWORK_WEEK4.pdb
