@@ -1,0 +1,12 @@
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\bin\Debug\TAKEHOME_WEEK7.exe.config
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\bin\Debug\TAKEHOME_WEEK7.exe
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\bin\Debug\TAKEHOME_WEEK7.pdb
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.csproj.AssemblyReference.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.csproj.SuggestedBindingRedirects.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.Form1.resources
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.Form2.resources
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.Properties.Resources.resources
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.csproj.GenerateResource.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.csproj.CoreCompileInputs.cache
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.exe
+C:\Users\kingg\source\repos\TAKEHOME_WEEK7\TAKEHOME_WEEK7\obj\Debug\TAKEHOME_WEEK7.pdb
